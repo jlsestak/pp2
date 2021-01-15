@@ -10,4 +10,13 @@
 ini_set('display_error', 1);
 error_reporting(E_ALL);
 
-echo "PHP Array Practice";
+echo "PHP Array Practice <br>";
+
+$numbers = array (7,9,8,9,8,8,6);
+
+function printArray($numbers) {
+    foreach($numbers as $value) {
+        echo "$value<br>";
+    }
+}
+printArray($numbers);
