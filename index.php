@@ -15,10 +15,14 @@ echo "PHP Array Practice <br>";
 
 $numbers = array (7,9,8,9,8,8,6);
 
-function printArray($numbers) {
-    foreach($numbers as $value) {
-        echo "$value<br>";
-    }
-}
+
 printArray($numbers);
+
+echo "<br> Largest number: <br>";
+largest($numbers);
+
+echo"<br> <br> Array without Duplicates: <br>";
+
+printArray(removeDups($numbers));
+
 
