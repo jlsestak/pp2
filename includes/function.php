@@ -21,4 +21,7 @@ function removeDups($array){
     return $array;
 }
 
+function distribution($array){
+    print_r(array_count_values($array));
+}
 

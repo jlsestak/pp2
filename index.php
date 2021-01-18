@@ -25,4 +25,6 @@ echo"<br> <br> Array without Duplicates: <br>";
 
 printArray(removeDups($numbers));
 
+echo "<br> <br> Associative Array<br>";
 
+distribution($numbers);
